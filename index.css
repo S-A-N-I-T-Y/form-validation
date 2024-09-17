@@ -61,11 +61,14 @@ button:hover {
   color: #0d161f;
   scale: 1;
 }
+::placeholder{
+  font-size: 16px;
+}
+.check {
+  border: 1px solid red;
+}
+
 .hidden {
   color: red;
   font-size: 20px;
-  padding: 20px 0;
-}
-:placeholder-shown{
-  font-size: 16px;
 }
